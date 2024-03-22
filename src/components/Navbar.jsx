@@ -20,6 +20,10 @@ function Navbar() {
     else{
       console.log("user not found") 
     }
+
+    useEffect(()=>{
+     console.log("refreshed")
+    },[Link])
    
   
 
